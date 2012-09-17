@@ -15,5 +15,15 @@ namespace LocalBooru
         {
             InitializeComponent();
         }
+
+        private void quitToolStripItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // ZE EVENT, IT DOES NOZHING!
+        }
     }
 }
